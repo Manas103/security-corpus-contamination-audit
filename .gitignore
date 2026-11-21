@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded benchmark items are small (tracked); the companion repo's
+# crawled corpus this audit reads is not duplicated here.
+# Regenerate: python audit/fetch_benchmarks.py
